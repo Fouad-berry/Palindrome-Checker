@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+.box {
+  width: 75%;
+  text-align: center;
+  display: flex;
+  margin-left: 11%;
+}
+svg #window {
+  cursor: pointer;
+  height: 500px;
+}
+
+svg{
+margin-top: -90px;
+}
+
+/*# sourceMappingURL=styles2.css.map */

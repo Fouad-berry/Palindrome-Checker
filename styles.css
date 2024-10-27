@@ -18,13 +18,12 @@ body {
   background: rgb(170, 87, 204, 0.8);
 }
 .wrapper {
-  max-width: 500px;
-  background: #fff;
-  border-radius: 7px;
-  padding: 20px 25px 15px;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
-}
-header h1 {
+    max-width: 500px;
+    border-radius: 7px;
+    padding: 20px 25px 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.12); /* Ombre sur tous les côtés */
+  }
+  header h1 {
   font-size: 27px;
   font-weight: 500;
 }

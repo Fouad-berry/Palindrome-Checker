@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+
+// html[data-theme='dark'] {
+
+// }
+
+body {
+
+
+
+  .box{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    top: 0;
+  }
+   h1 {
+        font-size: 3vw;
+        color: #556F80;
+    }
+
+    p {
+        color: #98AEBE;
+        font-size: 2vw;
+        line-height: 1.8em;
+        margin-top: 10px;
+    }
+  
+  svg #window{
+  cursor: pointer;
+
+  }
+}
+
+
+
