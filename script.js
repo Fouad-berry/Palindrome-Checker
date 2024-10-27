@@ -2,8 +2,6 @@ const txtInput = document.querySelector("input");
 const checkBtn = document.querySelector(".inputs button");
 const infoTxt = document.querySelector(".info-txt");
 
-let userInput = "";
-
 checkBtn.addEventListener("click", checkReverse);
 
 txtInput.addEventListener("keyup", (event) => {
@@ -17,8 +15,11 @@ txtInput.addEventListener("keyup", (event) => {
 });
 
 function checkReverse() {
-  // Supprimer les espaces, ponctuations et convertir en minuscules
-  userInput = txtInput.value.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+  let userInput = txtInput.value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9]/g, "")
+    .toLowerCase();
 
   const reverseInput = userInput.split("").reverse().join("");
   infoTxt.style.display = "block";
