@@ -66,7 +66,7 @@ header p {
   margin-top: 20px;
   border-radius: 5px;
   pointer-events: none;
-  background: #aa57cc;
+  background: #556F80;
   transition: opacity 0.15s ease;
 }
 .inputs button.active {
@@ -80,7 +80,8 @@ header p {
   margin-bottom: 18px;
 }
 .info-txt span {
-  color: #aa57cc;
+  color: #e28215;
+  font-weight: bolder;
 }
 
 @media (max-width: 520px) {
